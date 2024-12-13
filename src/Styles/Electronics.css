@@ -1,0 +1,286 @@
+.Container-electronics {
+padding: 10px;
+margin-left: 30px;
+margin-right: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f3b4f5;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.breadcrumb h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+  margin: 0;
+}
+
+.breadcrumb ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.breadcrumb ul li {
+  display: inline;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.breadcrumb ul li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb ul li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.breadcrumb ul li::after {
+  content: '/';
+  margin: 0 5px;
+  color: #6c757d;
+}
+
+.breadcrumb ul li:last-child::after {
+  content: '';
+}
+
+.electronics-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+ 
+}
+
+.section-electronics {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.left-sidebars {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+
+.Category {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  height: 150px;
+  overflow-y: scroll;
+  width: 200px;
+  margin-left: 30px;
+ 
+}
+
+.Category:hover {
+  transform: scale(1.01);
+ 
+}
+
+.Category h6{
+  text-align: center;
+  padding: 5px 5px;
+}
+.children p{
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+ 
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+ 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+  border: 1px solid transparent; /* Set initial border */
+}
+.children :hover{
+  transform: scale(1.01);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(99, 97, 97); /* Define hover border */
+ color: #0056b3;
+background-color: #f8f9fa;
+}
+
+
+
+.laptop-sale-img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  transition:  0.3s ease-in-out;
+}
+.laptop-sale-img2 img {
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  transition:  0.3s ease-in-out;
+}
+.laptop-sale-img  :hover{
+transform: scale(1.06);
+box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.1);
+}
+.laptop-sale-img2  :hover{
+  transform: scale(1.06);
+  box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.1);
+  }
+.right-section {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-thumb {
+  background-color: #ffffff;
+  border-radius: 8px;
+  height: 400px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.img-wrapper{
+  position: relative;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+
+.actions li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.actions li a:hover {
+  transform: scale(1.2);
+}
+
+.info {
+  padding: 10px;
+}
+
+.info .category {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.info .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.info .rating {
+  color: #ffc107;
+}
+
+.info .brand {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.info .pricing {
+  margin-top: 10px;
+}
+
+.info .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.info .old-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #dc3545;
+  margin-left: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-electronics {
+    flex-direction: column;
+  }
+
+  .left-sidebars {
+    width: 100%;
+  }
+
+  .right-section {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .electronics-container {
+    padding: 10px;
+  }
+
+  .children {
+    font-size: 14px;
+  }
+
+  .info .title {
+    font-size: 14px;
+  }
+
+  .info .price {
+    font-size: 16px;
+  }
+
+  .info .old-price {
+    font-size: 12px;
+  }
+}

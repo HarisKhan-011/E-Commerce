@@ -1,0 +1,172 @@
+/* General Styling */
+body {
+   
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header .title {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ff6347;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-top: 30px;
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .article {
+    width: 70%;
+    float: left;
+  }
+  
+  .article h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .article .author {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .article-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .article-body {
+    line-height: 1.6;
+  }
+  
+  .article-body h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .sidebar {
+    width: 28%;
+    float: right;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #ff6347;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header .title {
+      font-size: 28px;
+    }
+  
+    .navbar ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .article, .sidebar {
+      width: 100%;
+      float: none;
+    }
+  
+    .article h2 {
+      font-size: 28px;
+    }
+  
+    .article-body h3 {
+      font-size: 22px;
+    }
+  
+    .sidebar {
+      margin-top: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header .title {
+      font-size: 24px;
+    }
+  
+    .navbar ul li a {
+      font-size: 16px;
+    }
+  
+    .article-body h3 {
+      font-size: 20px;
+    }
+  
+    .sidebar h3 {
+      font-size: 20px;
+    }
+  }
+  

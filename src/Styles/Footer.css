@@ -1,0 +1,148 @@
+/* Footer Area */
+.footer-area {
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Row styling */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  
+  /* Column Styling */
+  .col-lg-2,
+  .col-sm-4 {
+    flex: 1;
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .col-lg-4,
+  .col-sm-6 {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  /* Copyright Section */
+  .copyright {
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center;     /* Horizontally center the content */
+    text-align: center;   
+    padding-top: 55px; 
+     /* Ensure the text inside <h2> is centered */
+  }
+  
+  
+  footer p {
+    font-size: 14px;
+    color: #555;
+    padding: 10px 0px;
+  }
+  
+  footer a {
+    color: #7a7a7a;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #9b59b6;
+  }
+  
+  /* Footer Widget Styling */
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  
+  .footer-title h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .footer-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-list ul li {
+    margin: 5px 0;
+    padding: 10px 0px;
+  }
+  
+  .footer-list ul li a {
+    color: #7a7a7a;
+    text-decoration: none;
+  }
+  
+  .footer-list ul li a:hover {
+    color: #ff6600;
+  }
+  
+  /* Subscribe Section */
+  .subscribe-style p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mc-form input.email {
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    border: none; /* Remove the border */
+    background-color: transparent; /* Make the background transparent */
+    outline: none; /* Remove the outline when focused */
+    border-bottom: 1px solid #cccbcb; /* Add a bottom border */
+  }
+  
+  
+  .mc-form .clear button.button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: #555;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-bottom: 2px solid #9e9d9d;
+    outline: none;
+  }
+  
+  .mc-form .clear button.button:hover {
+  color: #9b59b6;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .col-lg-2,
+    .col-lg-4 {
+      max-width: 100%;
+    }
+  }
+  

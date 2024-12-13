@@ -1,0 +1,36 @@
+.container {
+    overflow: hidden; /* Ensures no overflow beyond the set height */
+  
+  }
+  
+  .item img {
+    height: 400px;
+    width: 100%; /* Set width to 100% so the image scales properly within the container */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+  
+  }
+  .active{
+    background-color: aliceblue;
+  }
+  /* Custom style for the next button */
+/* Style for the next button */
+.carousel-control-next {
+    background-color: white !important; /* White background */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    margin-top: 180px;
+    margin-right:20px ;
+  }
+  
+  /* Style for the previous button */
+  .carousel-control-prev {
+    background-color: white !important; /* White background */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    margin-top: 180px;
+    margin-left:20px ;
+}
+  
+  

@@ -1,0 +1,88 @@
+/* Section1.css */
+
+/* Container for the section */
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Styling for each section */
+  .section {
+   
+    padding: 20px;
+    border-radius: 10px;
+    
+    width: 200px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px; /* Ensure responsiveness */
+  }
+  
+  /* Styling for the icons */
+  .shipping-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icons {
+    font-size: 40px; /* Adjust icon size */
+    color: #4caf50; /* Icon color */
+    margin-bottom: 15px;
+  }
+  
+  .section-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Heading styles */
+  .shipping-icon h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Paragraph text styles */
+  .shipping-icon p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .icons {
+      font-size: 35px; /* Adjust icon size for smaller screens */
+    }
+  
+    .shipping-icon h6 {
+      font-size: 16px;
+    }
+  
+    .shipping-icon p {
+      font-size: 13px;
+    }
+  }
+    
